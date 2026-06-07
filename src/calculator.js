@@ -23,4 +23,9 @@ module.exports = {
   subtract,
   multiply,
   divide,
+  power,
+}
+
+function power(a, b) {
+  return a ** b;
 };
